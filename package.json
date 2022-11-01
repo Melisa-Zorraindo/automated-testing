@@ -5,7 +5,8 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test-unit",
+    "test-unit": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Melisa-Zorraindo/automated-testing/issues"
   },
-  "homepage": "https://github.com/Melisa-Zorraindo/automated-testing#readme"
+  "homepage": "https://github.com/Melisa-Zorraindo/automated-testing#readme",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
 }
