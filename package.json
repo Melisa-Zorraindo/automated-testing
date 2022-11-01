@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Melisa-Zorraindo/automated-testing#readme",
   "devDependencies": {
+    "eslint": "^8.26.0",
     "jest": "^29.2.0"
   }
 }
